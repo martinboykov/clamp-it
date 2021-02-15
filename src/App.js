@@ -84,7 +84,7 @@ const copyTxt = (txt) => {
   document.execCommand("copy");
   document.body.removeChild(t);
   alert(`${txt}
-  
+
   Copied to clipboard!`);
 };
 
